@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квантовое Ограбление | The Schrödinger's Heist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-atom"></i> КВАНТОВОЕ ОГРАБЛЕНИЕ</h1>
+            <p class="subtitle">The Schrödinger's Heist</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2><i class="fas fa-user-secret"></i> ПРОПАЛ ДОКТОР КВАНТУМ</h2>
+                <p>Гениальный физик исчез, оставив лишь <span class="highlight">квантовый сейф</span>, существующий в суперпозиции. Он одновременно <span class="highlight">взломан и нет</span>, подобно коту Шрёдингера. Семь ключей, разбросанных по сети, — семь состояний сознания, необходимых для коллапса волновой функции и получения доступа.</p>
+                <p>Ваша задача — стать Наблюдателем. Подключите кошелёк, чтобы присоединиться к сообществу искателей и начать охоту за <span class="highlight">Квантовым Когтём</span>.</p>
+                <div class="quote">
+                    <p><i>"То, на что вы не смотрите, существует во всех состояниях сразу. Посмотрите — и вы украдете у реальности её потенциал."</i></p>
+                    <p class="quote-author">— Из дневника Доктора Квантума</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2><i class="fas fa-clock"></i> ДО КОЛЛАПСА ВОЛНОВОЙ ФУНКЦИИ</h2>
+                <p>Момент истины, когда сейф определит своё состояние, приближается. Коллективное наблюдение начнётся через:</p>
+                <div class="timer">
+                    <div class="timer__item">
+                        <span class="timer__number" id="days">00</span>
+                        <span class="timer__label">дней</span>
+                    </div>
+                    <div class="timer__sep">:</div>
+                    <div class="timer__item">
+                        <span class="timer__number" id="hours">00</span>
+                        <span class="timer__label">часов</span>
+                    </div>
+                    <div class="timer__sep">:</div>
+                    <div class="timer__item">
+                        <span class="timer__number" id="minutes">00</span>
+                        <span class="timer__label">минут</span>
+                    </div>
+                    <div class="timer__sep">:</div>
+                    <div class="timer__item">
+                        <span class="timer__number" id="seconds">00</span>
+                        <span class="timer__label">секунд</span>
+                    </div>
+                </div>
+                <p class="timer-note">Первые 10 000 Наблюдателей получат Heist Pass NFT.</p>
+            </div>
+
+            <div class="card">
+                <h2><i class="fas fa-key"></i> СТАНЬТЕ СООБЩНИКОМ</h2>
+                <p>Подключите свой Web3-кошелёк, чтобы подтвердить намерение и присоединиться к квантовому эксперименту.</p>
+                <div class="wallet-section">
+                    <button id="connectWalletBtn">
+                        <i class="fas fa-wallet"></i> Подключить MetaMask
+                    </button>
+                    <div class="wallet-info" id="walletInfo" style="display: none;">
+                        <p><i class="fas fa-check-circle"></i> Кошелёк подключен:</p>
+                        <p class="wallet-address" id="walletAddress">...</p>
+                        <p class="success-msg">Вы вошли в игру. Ожидайте начала минта Heist Pass.</p>
+                    </div>
+                    <p class="wallet-alert" id="walletAlert"><i class="fas fa-exclamation-triangle"></i> Установите <a href="https://metamask.io/" target="_blank">MetaMask</a> для участия.</p>
+                </div>
+                <p class="hint"><i class="fas fa-lightbulb"></i> Это только начало. Ключи спрятаны в коде, транзакциях и коллективном разуме сообщества.</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Следуйте за нами в <a href="#"><i class="fab fa-twitter"></i> Twitter</a> и <a href="#"><i class="fab fa-discord"></i> Discord</a></p>
+            <p class="footer-note">© 2026 The Schrödinger's Heist. Сейф существует, пока вы на него не посмотрите.</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.0/dist/web3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
